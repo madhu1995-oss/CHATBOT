@@ -14,7 +14,7 @@ RUN  apt update
 RUN apt install python3-pip -y
 
 RUN pip3 install spacy==2.0.18
-RUN spacy download en_core_web_md
+RUN python3 -m spacy download en_core_web_md
 RUN python3 -m spacy link en_core_web_md en --force;
 
 ENTRYPOINT [ "rasa", "run", "-p", "8080"]
