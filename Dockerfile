@@ -11,7 +11,7 @@ COPY . /var/www
 WORKDIR /var/www
 
 RUN  apt update
-RUN apt install python3-pip
+RUN apt install python3-pip -y
 
 RUN pip3 install spacy==2.0.18
 RUN spacy download en_core_web_md
