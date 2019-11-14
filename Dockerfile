@@ -6,6 +6,6 @@ COPY . /var/www
 WORKDIR /var/www
 
 RUN spacy download en_core_web_md
-RUN spacy link en_core_web_md en --user
+RUN sudo spacy link en_core_web_md en 
 
 ENTRYPOINT [ "rasa", "run", "-p", "8080"]
