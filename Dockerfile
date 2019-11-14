@@ -12,8 +12,8 @@ WORKDIR /var/www
 
 RUN  apt update
 RUN apt install python3-pip -y
-RUN pip3 install tensorflow==1.15.0
-RUN pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
+RUN pip3 install tensorflow==1.12.0
+RUN pip3 install rasa
 RUN pip3 install spacy==2.0.18
 RUN python3 -m spacy download en_core_web_md
 RUN python3 -m spacy link en_core_web_md en --force;
