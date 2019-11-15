@@ -8,7 +8,6 @@ RUN apt-get update && apt-get install \
 
 RUN python3 -m virtualenv --python=/usr/bin/python3 /opt/venv
 RUN . /opt/venv/bin/activate 
-RUN  add-apt-repository ppa:deadsnakes/ppa
 RUN  apt-get update
 RUN  apt-get install python3.7
 RUN pip3 install rasa && pip3 install spacy
