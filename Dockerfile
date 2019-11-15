@@ -9,7 +9,9 @@ RUN apt-get update && apt-get install \
 RUN python3 -m virtualenv --python=/usr/bin/python3 /opt/venv
 RUN . /opt/venv/bin/activate 
 RUN  apt-get update
-RUN  apt-get install python3.7 -y 
+RUN  apt-get install python3.7 -y
+RUN apt update
+RUN apt install python3-pip
 RUN pip3 install rasa && pip3 install spacy
 RUN python3 -m spacy download en_core_web_md
 RUN python3 -m spacy link en_core_web_md en --force;
