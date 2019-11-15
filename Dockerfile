@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install \
 
 RUN python3 -m virtualenv --python=/usr/bin/python3 /opt/venv
 RUN . /opt/venv/bin/activate
+RUN python3 -v
 
 ENV BOT_ENV=production
 
@@ -12,9 +13,9 @@ WORKDIR /var/www
 
 RUN  apt update
 RUN apt install python3-pip -y
-RUN pip3 install tensorflow==1.12.0
+RUN pip3 install tensorflow==1.15.0
 RUN pip3 install rasa
-RUN pip3 install spacy==2.0.18
+RUN pip3 install spacy
 RUN python3 -m spacy download en_core_web_md
 RUN python3 -m spacy link en_core_web_md en --force;
 
