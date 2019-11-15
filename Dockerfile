@@ -4,10 +4,11 @@ ENV BOT_ENV=production
 COPY . /var/www
 WORKDIR /var/www
 RUN apt-get update && apt-get install \
-  -y --no-install-recommends python3 python3-dev
+  -y --no-install-recommends python3 python3-venv
 
 RUN python3 -m venv --system-site-packages ./opt/venv
-RUN . /opt/venv/bin/activate && pip3 install rasa && pip3 install spacy
+RUN ./opt/venv/bin/activate 
+RUN pip3 install rasa && pip3 install spacy
 RUN python3 -m spacy download en_core_web_md
 RUN python3 -m spacy link en_core_web_md en --force;
 
