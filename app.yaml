@@ -1,5 +1,6 @@
-runtime: custom
+runtime: python
 env: flex
+entrypoint: gunicorn -b :$PORT main:app
 
 runtime_config:
   python_version: 3
@@ -12,5 +13,5 @@ manual_scaling:
   instances: 1
 resources:
   cpu: 1
-  memory_gb: 4
-  disk_size_gb: 20
+  memory_gb: 0.5
+  disk_size_gb: 10
