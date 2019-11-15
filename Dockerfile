@@ -3,7 +3,7 @@ ENV BOT_ENV=production
 
 COPY . /var/www
 WORKDIR /var/www
-RUN apt-get update && apt-get install \
+RUN sudo apt-get update && apt-get install \
   -y --no-install-recommends python3 python3-venv
 
 RUN python3 -m venv --system-site-packages ./opt/venv
