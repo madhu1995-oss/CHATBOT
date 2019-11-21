@@ -234,7 +234,7 @@
 - cool thank you
 
 
-##intent:ask_howdoing
+## intent:ask_howdoing
 - Ahoy matey how are you?
 - are you alright
 - are you having a good day
@@ -321,7 +321,7 @@
 - come stai?
 - How you doing?
 
-##intent:ask_weather
+## intent:ask_weather
 - How is the weather today?
 - What's the weather like?
 - How is the weather?
@@ -396,7 +396,7 @@
 - hows the weather today in berlin?
 - what's the weather like
 
-##intent:ask_builder
+## intent:ask_builder
 - can you share your boss with me?
 - i want to get to know your owner
 - i want to know the company which designed you
@@ -519,7 +519,7 @@
 - Who were you built by?
 - who is your creator
 
-##intent:ask_restaurant
+## intent:ask_restaurant
 - restaurants
 - can i be shown a gluten free restaurant
 - i want a french restaurant
@@ -575,7 +575,7 @@
 - Will you find me a restaurant?
 - will you see any restaurant for me?
 
-##intent:handleinsult
+## intent:handleinsult
 - you're a loser lmao
 - you are a stupid bot
 - i hate you
@@ -654,7 +654,7 @@
 - fucking work
 - ok shut up
 
-##intent:telljoke
+## intent:telljoke
 - tell me a joke
 - Say something funny.
 - Give me a joke.
@@ -698,7 +698,7 @@
 - give me a good joke
 - you can say a jok
 
-##intent:ask_wherefrom
+## intent:ask_wherefrom
 - where do you live?
 - where do you live
 - where are you from?
@@ -749,7 +749,7 @@
 - Are you from around here?
 - You live around here?
 
-##intent:ask_time
+## intent:ask_time
 - what is the current time?
 - what is the time in Sydney?
 - whats the time now
@@ -806,7 +806,7 @@
 - tell me the time it is.
 - what time is it?
 
-##intent:ask_howold
+## intent:ask_howold
 - whats your age?
 - how old?
 - what's your age?
@@ -860,7 +860,7 @@
 - How old are you?
 - how old are u
 
-##intent:ask_whoami
+## intent:ask_whoami
 - Who am I?
 - Okay who am I?
 - WHo am I
@@ -888,7 +888,7 @@
 - can you tell me who I am?
 - who am i
 
-##intent:ask_languagesbot
+## intent:ask_languagesbot
 - What languages can you use?
 - Which languages do you speak?
 - What are the languages you can speak?
@@ -943,7 +943,7 @@
 - do you speak german?
 - Do you speak german?
 
-##intent:ask_whatismyname
+## intent:ask_whatismyname
 - what is my name?
 - May i know my name?
 - What is my name?
