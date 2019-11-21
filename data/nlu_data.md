@@ -997,27 +997,27 @@
 
 ## regex:location
 - [0-9]{5}
-## intent: market_info
+## intent:market_info
 - [sarso](crop) kitne ka ja raha hai?
 - [randi](crop) kad dam kya hai bazaar me?
 - fasal ke baare me jaanjari chahiye
 - kya aap mujhe fasalo ke daam bata sakte hai.
 - main fasal ke damo ke baare me jaanna chahta hun.
 - main fasal ke damo ke baare me jaanna chahti hun.
-## intent: weedmanagement
+## intent:weedmanagement
 -  [genhu](crop) ko [kharapatavaar](plant:ghaaspat) se kaise bachaye?
 -  [chaaval](crop:dhaan) ko [kharapatavaar](plant:ghaaspat) se kaise bachaye?
 -  [kharapatavaar](plant:ghaaspat),[genhu](crop) ko kharab kar raha ,mujhe kya karna chahiye?
 - [kharapatavaar](plant:ghaaspat),[chaaval](crop) ko kharab kar raha ,mujhe kya karna chahiye?
-## intent: pest_management
+## intent:pest_management
 - [keet](insects:keeto) ko  dur kaise rakhe?
 - fasal ko [keet](insects:keeto) se kaise bachaye?
-## intent: animalmanagement
+## intent:animalmanagement
 - [krntak][mammals:krntako] se fasal kaise bachaye?
 - [jaanwar][mammals:jaanwaro] se fasal kaise bachaye?
 - mere fasal ko [jaanwar][mammals:jaanwaro] khaa rahe main kya karun?
 - fasal ko [jaanwar][mammals:jaanwaro] se bachane ka upay kya hai?
-## intent: plant_protection
+## intent:plant_protection
 - [anar](fruits:anaro) ko tutne se kaise roke?
 - [jeera](plants:jeero) me [fafund](microorganisms) laga hua hai toh kya kare?
 - [jeera](plants:jeero) par [fafund](microorganisms) dikhe toh kya kare?
@@ -1027,9 +1027,9 @@
 - [saphed makkhee](insects:saphed makkheeyan) dikhe [jeera](crop:jeero) ke pass toh kya kare?
 - [boron][micronutrient] ka dosage kita hona chahiye?
 - [aalo](crop) me kitna [khad](nurient_suppliers) dena chahiye?
-## intent: get_contact_details
+## intent:get_contact_details
 - [AGROSTAR](company) ka contact number kya hai?
-## intent: get_hospitals_details
+## intent:get_hospitals_details
 - [Bengaluru](location) me kaun kaun se hospitals hai?
 - [Noida](location) me kaun kaun se hospitals hai?
 - [Gurgaon](location) me kaun kaun se hospitals hai ?
@@ -1041,10 +1041,10 @@
 - [Noida](location) k pass koe achi private hospital bata sakte hai ?
 - [Gurgaon](location) m koe sarkari hospital bataeye ?
 - [Ahemdabad](location) m koe 
-## intent : inform_type
+## intent:inform_type
 - [government](type)
 - [private](type)
-##  intent : eyecare_info
+## intent:eyecare_info
 - [Gurgaon](location) me  mujhe [eye](organ:eyes) k doctor k pass jana hai.
 - [Gurgaon](location) mujhe [eye](organ:eyes) ka operation karana hai .
 - [Gurgaon](location) me  mujhe [eye](organ:eye) k doctor k pass jana hai.
