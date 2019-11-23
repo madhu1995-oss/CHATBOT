@@ -8,5 +8,4 @@ RUN pip3 install rasa
 RUN pip3 install spacy
 RUN python3 -m spacy download en_core_web_md
 RUN python3 -m spacy link en_core_web_md en --force;
-EXPOSE 80
-ENTRYPOINT [ "rasa"]
+ENTRYPOINT [ "rasa","run"]
