@@ -13,8 +13,7 @@ policies:
     epochs: 50
     attn_shift_range: 3
     featurizer:
-    - name: MaxHistoryTrackerFeaturizer
-      max_history: 5
+    - name: FullDialogueTrackerFeaturizer
       state_featurizer:
         - name: BinarySingleStateFeaturizer
   - name: MemoizationPolicy
